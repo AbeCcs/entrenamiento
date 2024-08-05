@@ -1,0 +1,36 @@
+{
+    "email": {
+      "quinteroabelardo@gmail": {
+        "nombre": "Abelardo",
+        "apellido": "Quintero",
+        "ocupacion": "Ingeniero",
+        "cedula": "18707992"
+
+      },
+      "susanard@gmail": {
+         "nombre": "Susana",
+         "apellido" :"Rodrigues",
+         "ocupacion": "Contador",
+         "cedula": 21130048
+
+
+
+    },
+        "danielrubial1@gmail": {
+        "nombre": "Daniel",
+        "apellido" :"Rubial",
+        "ocupacion": "Contador",
+        "cedula": "18713971"
+
+
+   },
+   "helenita@gmail": {
+    "nombre": "Helena",
+    "apellido" :"Dias",
+    "ocupacion": "Mama adoptiva de Abe",
+    "cedula": "11556749"
+
+  
+  }
+    }
+  }

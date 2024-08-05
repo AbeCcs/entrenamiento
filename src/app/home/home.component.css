@@ -1,0 +1,29 @@
+
+body
+{
+    background-color: rgb(184, 168, 168);
+    text-align: center;
+    color: black;
+    height: 100vh;
+
+    
+
+}
+
+button
+{
+    margin: 5px;
+    
+}
+
+p
+{
+
+    color: red;
+}
+
+div
+{
+    margin: 10px;
+    
+}

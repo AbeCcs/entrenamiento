@@ -1,0 +1,40 @@
+<body>
+
+    
+<div>
+
+<h1>Bienvenido</h1>
+
+ <h6>
+    <input type="text" id = "correo" placeholder="email">
+    <br><br>
+   <input type="password"  id="password" placeholder="password">
+
+
+</h6>
+ 
+
+</div>   
+ 
+    
+<div *ngIf =cargando><app-pruebas></app-pruebas></div>
+   
+<button type="button" id = "login" class="btn btn-success" (click)="login()">Iniciar sesion</button>
+
+<br>
+
+    
+<button type="button" id ="registrar" class="btn btn-primary" (click)=" registrar()">Registrar</button>
+
+    
+<br><br>
+    
+   <p>{{mensaje}}</p> 
+
+
+</body>
+    
+    
+
+
+
