@@ -1,7 +1,6 @@
 <Body>
 
-    <h3>Favor rellenar datos para el registro de usuario</h3>
-<form action=""></form>
+    <h3>Favor rellenar datos para el registro de usuario</h3> 
 <br>
 <input type="text" id = "nombre" placeholder="nombre">
 <br><br>
@@ -14,6 +13,28 @@
 <input type="text" id = "correo" placeholder="email">
 <br><br>
 <input type="password" id = "password" placeholder="password">
+
+<div *ngIf =cargando><app-pruebas></app-pruebas></div>
+
+<br><br>
+
+<h6>Ingrese una foto:
+    <br></h6>
+
+<div>
+    <span class="btn btn-primary btn-file">
+        Seleccionar archivo <input type="file" id ="foto">
+      </span>
+<br>
+      <button type="button" id ="registrar" class="btn btn-success" (click)=" registrar()">Registrar</button>
+
+
+</div>
+<br>
+
+
+
+<p>{{mensaje}}</p>
 
 
 </Body>
