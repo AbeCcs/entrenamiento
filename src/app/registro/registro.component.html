@@ -1,40 +1,26 @@
 <Body>
 
-    <h3>Favor rellenar datos para el registro de usuario</h3> 
+ <h3>Favor rellenar datos para el registro de usuario</h3>
+<form [formGroup]="Formulario" (ngSubmit) = "submit()">
+
+    <input type="text" formControlName="nombre">
+    <br><br>
+    <input type="number" formControlName  ="cedula">
+    <br>
+    <button type="submit">Submit</button>
+
+</form>
+
 <br>
-<input type="text" id = "nombre" placeholder="nombre">
-<br><br>
-<input type="text" id = "apellido"  placeholder="apellido">
-<br><br>
-<input type="text" id = "cedula" placeholder="cedula">
-<br><br>
-<input type="text" id = "ocupacion" placeholder="ocupacion">
-<br><br>
-<input type="text" id = "correo" placeholder="email">
-<br><br>
-<input type="password" id = "password" placeholder="password">
-
-<div *ngIf =cargando><app-pruebas></app-pruebas></div>
-
-<br><br>
-
-<h6>Ingrese una foto:
-    <br></h6>
-
-<div>
-    <span class="btn btn-primary btn-file">
-        Seleccionar archivo <input type="file" id ="foto">
-      </span>
+<input type="text"  id="id" placeholder="id a buscar">
+<button type="button" id ="consultar" (click)=" consulta()">Consultar</button>
 <br>
-      <button type="button" id ="registrar" class="btn btn-success" (click)=" registrar()">Registrar</button>
-
-
-</div>
+<p>Resultados:
+    <br>
+Nombre : {{nombre}}
 <br>
-
-
-
-<p>{{mensaje}}</p>
+Cedula: {{cedula}}
+ </p> 
 
 
 </Body>
